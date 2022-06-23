@@ -22,3 +22,8 @@ myButton.addEventListener('mouseover', function (){
     // alert('stop touching me')
     console.log('STOP TOUCHING ME ')
 })
+
+window.addEventListener('scroll', function(){
+    console.log('scroll on by')
+})
+
